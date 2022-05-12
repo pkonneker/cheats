@@ -1,0 +1,9 @@
+% gh, auth, login
+
+# Authenticate to github
+gh auth login -p https
+
+% gh, auth, login
+
+# Authenticate to github from mac paste buffer
+pbpaste | gh auth login -p https --with-token
